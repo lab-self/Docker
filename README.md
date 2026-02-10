@@ -97,5 +97,5 @@ for easier deployment on Ubuntu systems.
 ### Author
 
 Maintained by **lab-self**  
-System Administrator | DevOps
+System Administrator | DevOps <br>
 GitHub: https://github.com/lab-sel
