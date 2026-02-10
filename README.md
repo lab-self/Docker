@@ -42,4 +42,15 @@ The script works on:
 Run the following command on your Ubuntu server:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/lab-self/docker-install/main/install-docker-ubuntu.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/lab-self/Docker/main/install-docker-ubuntu.sh | sudo bash
+
+## Validate Docker Installation
+
+After the installation completes, log out and log back in (or open a new shell), then run the following checks.
+
+### Check Docker Engine
+```bash
+docker --version
+### Check Docker Compose Version
+```bash
+docker compose version
