@@ -36,10 +36,30 @@ The script works on:
 - Internet connectivity
 
 ---
-
 ## Quick Install (One Command)
 
 Run the following command on your Ubuntu server:
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/lab-self/Docker/main/install-docker-ubuntu.sh | sudo bash
+`curl -fsSL https://raw.githubusercontent.com/lab-self/Docker/main/install-docker-ubuntu.sh | sudo bash`
+
+---
+
+## Validate Docker Installation
+
+After the installation completes, log out and log back in (or open a new shell), then run the following checks.
+
+### Check Docker Engine
+`docker --version`
+
+### Check Docker Compose Version
+`docker compose version`
+
+### Verify Docker Service Status
+`systemctl status docker`
+
+### Run a Test Container
+`docker run hello-world`
+
+### List Running Containers
+`docker ps`
+
