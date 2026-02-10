@@ -42,38 +42,37 @@ Run the following command on your Ubuntu server:
 
 ```shell
 curl -fsSL https://raw.githubusercontent.com/lab-self/Docker/main/install-docker-ubuntu.sh | sudo bash
-
+```
 ---
 
 ## Validate Docker Installation
 
-After the installation completes, log out and log back in (or open a new shell), then run the following checks.
-
-## Check Docker Engine
+### Check Docker Engine:
 
 ```shell
 docker --version
-
+```
 ---
 
-## Check Docker Compose Version
+### Check Docker Compose Version:
 ```shell
 docker compose version
-
+```
 ---
 
-## Verify Docker Service Status
+### Verify Docker Service Status:
 ```shell
 systemctl status docker
-
+```
 ---
 
-## Run a Test Container
+### Run a Test Container:
 ```shell
 docker run hello-world
-
+```
 ---
 
-### List Running Containers
+### List Running Containers:
 ```shell
 docker ps
+```
