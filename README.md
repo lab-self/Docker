@@ -3,7 +3,6 @@
 This repository provides a **secure, automated installation script** for installing **Docker Engine** and **Docker Compose v2** on Ubuntu servers.
 
 The script follows **official Docker best practices**, uses **APT keyrings**, and automatically detects the Ubuntu version.
-
 ---
 
 ## Supported Ubuntu Versions
@@ -76,3 +75,27 @@ docker run hello-world
 ```shell
 docker ps
 ```
+
+---
+
+## Credits & Attribution
+
+This repository installs **Docker Engine** and **Docker Compose** using the
+official packages and repositories provided by **Docker Inc.**
+
+- Docker documentation: https://docs.docker.com/
+- Docker Engine install guide: https://docs.docker.com/engine/install/
+- Docker Compose documentation: https://docs.docker.com/compose/
+- Source repositories: https://github.com/docker
+
+This project does **not** modify Docker or Docker Compose.
+It only provides a simplified installation script and documentation
+for easier deployment on Ubuntu systems.
+
+---
+
+### Author
+
+Maintained by **lab-self**  
+System Administrator | DevOps
+GitHub: https://github.com/lab-sel
